@@ -70,7 +70,6 @@ class FilesAnalyzer:
             return True
         except Exception as e:
             print_and_log(f"Error occurred when adding a file. {e}")
-            print()
             return False
 
     def _add_extension_to_storage(self, extension_name: str, quantity: int = 1) -> bool:
